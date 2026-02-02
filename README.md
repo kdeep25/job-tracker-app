@@ -1,16 +1,95 @@
-# React + Vite
+# Job Application and Skills Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based personal career management system developed using React.  
+The application helps users organize job applications, maintain supporting documents, track skills development, and manage professional information within a single dashboard.
 
-Currently, two official plugins are available:
+Live Demo: [https://your-live-link.netlify.app](https://personal-jobd-tracker.netlify.app/)  
+Repository: https://github.com/kdeep25/job-tracker-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Objective
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To design and implement a lightweight, client-side application that simplifies tracking of job applications and learning progress while providing a structured personal portfolio interface.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+- Add, search, filter, and delete job applications
+- Upload and view supporting documents (images or PDFs)
+- Application statistics and summary table
+- Resume-style profile page
+- Skills tracker with learning status and source categorization
+- Persistent storage using browser LocalStorage
+- Responsive and clean user interface
+
+
+## Technology Stack
+
+Frontend:
+- React (Vite)
+- React Router
+- Tailwind CSS
+
+Storage:
+- LocalStorage
+
+Deployment:
+- Netlify
+
+Version Control:
+- Git and GitHub
+
+
+## Project Structure
+
+src/
+components/
+pages/
+utils/
+App.jsx
+main.jsx
+
+
+## Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/kdeep25/job-tracker-app.git
+
+cd job-tracker-app
+
+npm install
+
+
+**Run locally:**
+
+npm run dev
+
+
+**Build for production:**
+
+npm run build
+
+
+## Learning Outcomes
+
+- Component-based architecture in React
+- Client-side state management
+- CRUD operations
+- File handling using Base64 encoding
+- Single Page Application routing
+- UI design with Tailwind CSS
+- Deployment using CI/CD workflow
+- Version control using Git
+
+
+## Author
+
+Deepika Seran  
+Computer Science Engineering Student  
+Bengaluru, India  
+
+ 
+## License
+
+This project is developed for educational and portfolio purposes.
